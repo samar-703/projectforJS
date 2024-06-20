@@ -63,4 +63,9 @@ document.addEventListener('DOMContentLoaded', () => {
             choice.classList.add('disabled');
         });
     }
+    var rst=document.getElementById("reset");
+    rst.addEventListener("click",function(){
+        location.reload();
+    })
 });
+
